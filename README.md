@@ -4,6 +4,7 @@
 
   <p align="center">
     A professional, high-performance C++ interpreter for mathematical expressions, engineered with a focus on clean architecture, modern C++ standards, and robust parsing techniques.
+  </p>
 </div>
 
 ---
@@ -30,14 +31,6 @@
 ## 👁️ Architecture Overview
 
 The interpreter's design follows a classic two-stage compiler pipeline, ensuring modularity and extensibility.
-
-```mermaid
-graph TD
-    A[Input String: &quot;3 * (4 + 2)&quot;] --> B{Parser};
-    B -- Lexical & Syntactic Analysis --> C[Abstract Syntax Tree];
-    C -- Traversal --> D{Evaluator};
-    D --> E[Result: 18.0];
-```
 
 - **Parser:** A recursive descent parser reads the input string. It tokenizes the input on-the-fly and applies grammar rules to build an Abstract Syntax Tree (AST).
 - **Abstract Syntax Tree (AST):** A tree structure where each node represents an operation (`BinaryNode`), a value (`NumberNode`), or a function call (`FunctionNode`). This tree accurately represents the expression's structure and precedence.
