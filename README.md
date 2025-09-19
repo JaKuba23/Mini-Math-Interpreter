@@ -5,14 +5,6 @@
   <p align="center">
     A professional, high-performance C++ interpreter for mathematical expressions, engineered with a focus on clean architecture, modern C++ standards, and robust parsing techniques.
     <br />
-    <a href="#-architecture-overview"><strong>Explore the Architecture »</strong></a>
-    <br />
-    <br />
-    <a href="#-usage">View Demo</a>
-    ·
-    <a href="#">Report Bug</a>
-    ·
-    <a href="#">Request Feature</a>
   </p>
 </div>
 
@@ -98,5 +90,6 @@ sin(pi/4)^2 + cos(pi/4)^2 + log(e^2)
 -(2 + 5^2) + sqrt(49) + sin(pi)
 
 (3 + 4)^2 - 2^3 * tan(pi/4)
+
 
 ---
