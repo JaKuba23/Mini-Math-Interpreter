@@ -1,0 +1,41 @@
+# Build files
+/build/
+/bin/
+/obj/
+/*.exe
+/*.out
+/*.o
+/*.a
+/*.so
+/*.dll
+
+# Visual Studio files
+*.vcxproj*
+*.sln
+*.user
+*.suo
+*.ipch
+*.pch
+*.opensdf
+*.sdf
+*.vscode
+.json
+
+# macOS files
+.DS_Store
+
+# Linux swap files
+*~
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# JetBrains IDE files (CLion)
+.idea/
+*.iml
+
+# Logs
+*.log
