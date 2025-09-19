@@ -4,8 +4,6 @@
 
   <p align="center">
     A professional, high-performance C++ interpreter for mathematical expressions, engineered with a focus on clean architecture, modern C++ standards, and robust parsing techniques.
-    <br />
-  </p>
 </div>
 
 ---
@@ -35,7 +33,7 @@ The interpreter's design follows a classic two-stage compiler pipeline, ensuring
 
 ```mermaid
 graph TD
-    A[Input String: "3 * (4 + 2)"] --> B{Parser};
+    A[Input String: &quot;3 * (4 + 2)&quot;] --> B{Parser};
     B -- Lexical & Syntactic Analysis --> C[Abstract Syntax Tree];
     C -- Traversal --> D{Evaluator};
     D --> E[Result: 18.0];
@@ -90,6 +88,5 @@ sin(pi/4)^2 + cos(pi/4)^2 + log(e^2)
 -(2 + 5^2) + sqrt(49) + sin(pi)
 
 (3 + 4)^2 - 2^3 * tan(pi/4)
-
 
 ---
